@@ -1,0 +1,30 @@
+# Mako Notification Daemon
+
+default-timeout=5000
+output=DP-1
+anchor=top-right
+layer=top
+max-visible=4
+
+font=monospace 11
+background-color=#00000033
+text-color=#f5f5f5ff
+progress-color=over #faebd780
+width=500
+height=80
+border-size=2
+border-radius=10
+outer-margin=5
+padding=5
+max-icon-size=32
+icon-location=left
+sort=-time
+
+[urgency=low]
+border-color=#faebd780
+
+[urgency=normal]
+border-color=#faebd780
+
+[urgency=critical]
+border-color=#ee539680
